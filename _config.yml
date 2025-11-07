@@ -1,0 +1,68 @@
+# Site settings
+title: Jianlong Lei's Blog
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to my personal blog. I share my thoughts, experiences, and projects here.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jianglonglei.github.io" # the base hostname & protocol for your site
+twitter_username: your_username
+github_username: JianlongLei
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-sass-converter
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Dockerfile
+  - docker-compose.yml
+  - README.md
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Jianlong Lei"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Timezone
+timezone: Asia/Shanghai
