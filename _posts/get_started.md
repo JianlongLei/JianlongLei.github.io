@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Get Started with Microsoft Data Analytics"
+date:   2026-1-14 12:00:00 +0800
+categories: Data Analytics
+tags: [Data, Analytics, Power BI, Fabric, Copilot, Azure]
+---
+
 # Get Started with Microsoft Data Analytics
 
 ## Overview
