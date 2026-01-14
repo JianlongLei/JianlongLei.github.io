@@ -188,7 +188,7 @@ OneLake is Fabric's centralized data storage architecture that enables collabora
 
 OneLake is built on [*Azure Data Lake Storage (ADLS)*](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) and supports various formats, including [Delta](https://delta.io/), [Parquet](https://parquet.apache.org/), [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), and [JSON](https://www.json.org/json-en.html). 
 
-![Microsoft Fabric OneLake](/assets/images\get_started\onelake-architecture.png)
+![Microsoft Fabric OneLake](/assets/images/get_started/onelake-architecture.png)
 
 ### Workspaces
 
@@ -239,7 +239,7 @@ Before you can explore the end-to-end capabilities of Microsoft Fabric, it must 
 
 Admins can enable Fabric in the **Admin portal > Tenant settings** in the **Power BI service.** Fabric can be enabled for the entire organization or for specific Microsoft 365 or Microsoft Entra security groups. Admins can also delegate this ability to other users at the capacity level.
 
-![Enable Microsoft Fabric](/assets/images\get_started\enable-fabric.png)
+![Enable Microsoft Fabric](/assets/images/get_started/enable-fabric.png)
 
 ### Create workspaces
 
@@ -265,7 +265,7 @@ Here are some considerations when using OneLake catalog:
 - Explore default categories to quickly locate relevant data.
 - Filter by keyword or item type.
 
-![OneLake Catalog](/assets/images\get_started\onelake-catalog.png)
+![OneLake Catalog](/assets/images/get_started/onelake-catalog.png)
 
 ### Create items with Fabric workloads
 
