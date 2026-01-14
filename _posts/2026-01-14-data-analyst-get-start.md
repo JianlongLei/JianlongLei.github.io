@@ -121,14 +121,14 @@ The Power BI service provides a simple and interactive user experience to take y
 
 Workspaces are the foundation of the Power BI service. When publishing any report, you *must* choose a workspace. By default, every user has access to *My workspace*, which is ideal only for testing. When you want to share content with others, *always* create and use a shared workspace.
 
-![Power BI Workspaces](./figures/get_started/pbi-touring-00.png)
+![Power BI Workspaces](/assets/images/get_started/pbi-touring-00.png)
 
 
 ### Explore sample reports
 
 Power BI offers several sample reports for you to explore. These reports load to My workspace so you can explore privately. You can access sample reports in the **Learn** section of the navigation pane.
 
-![Power BI Sample Reports](./figures/get_started/pbi-touring_01.png)
+![Power BI Sample Reports](/assets/images/get_started/pbi-touring_01.png)
 
 ### Distribute content
 
@@ -140,23 +140,23 @@ Once you create an app, you **must** update the app *after each change to items*
 
 Apps are the ideal sharing solution within any organization. While you can grant access to the workspace, workspace permissions may grant users access to more content than desired. Sharing individual items also presents a problem if you make changes you don't want consumers to see yet.
 
-![Power BI Apps](./figures/get_started/pbi-touring_02.png)
+![Power BI Apps](/assets/images/get_started/pbi-touring_02.png)
 
 ### Explore template apps
 
 Template apps allow you to find an existing app that suits your needs and then you connect your data. These apps can be a great way to quickly share insights with minimal effort.
 
-![Explore Power BI Template Apps](./figures/get_started/pbi-touring_03.png)
+![Explore Power BI Template Apps](/assets/images/get_started/pbi-touring_03.png)
 
 In the following screenshot, we've installed the GitHub template app and have expanded the report. We can see different report pages, including *Top 100 Contributors and Pull Requests*. If your organization is using GitHub, using this template app can easily support your needs without starting from the beginning.
 
-![GitHub Power BI Template App](./figures/get_started/pbi-touring_04.png)
+![GitHub Power BI Template App](/assets/images/get_started/pbi-touring_04.png)
 
 ### Refresh a semantic model
 
 In order to support your ever-changing data, you can configure scheduled refreshes of your semantic models in the Power BI service. On-demand refreshes are also available.
 
-![Power BI Data Refresh](./figures/get_started/pbi-touring_05.png)
+![Power BI Data Refresh](/assets/images/get_started/pbi-touring_05.png)
 
 # Introduction to [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric)
 
@@ -188,7 +188,7 @@ OneLake is Fabric's centralized data storage architecture that enables collabora
 
 OneLake is built on [*Azure Data Lake Storage (ADLS)*](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-introduction) and supports various formats, including [Delta](https://delta.io/), [Parquet](https://parquet.apache.org/), [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), and [JSON](https://www.json.org/json-en.html). 
 
-![Microsoft Fabric OneLake](./figures\get_started\onelake-architecture.png)
+![Microsoft Fabric OneLake](/assets/images\get_started\onelake-architecture.png)
 
 ### Workspaces
 
@@ -239,7 +239,7 @@ Before you can explore the end-to-end capabilities of Microsoft Fabric, it must 
 
 Admins can enable Fabric in the **Admin portal > Tenant settings** in the **Power BI service.** Fabric can be enabled for the entire organization or for specific Microsoft 365 or Microsoft Entra security groups. Admins can also delegate this ability to other users at the capacity level.
 
-![Enable Microsoft Fabric](./figures\get_started\enable-fabric.png)
+![Enable Microsoft Fabric](/assets/images\get_started\enable-fabric.png)
 
 ### Create workspaces
 
@@ -265,7 +265,7 @@ Here are some considerations when using OneLake catalog:
 - Explore default categories to quickly locate relevant data.
 - Filter by keyword or item type.
 
-![OneLake Catalog](./figures\get_started\onelake-catalog.png)
+![OneLake Catalog](/assets/images\get_started\onelake-catalog.png)
 
 ### Create items with Fabric workloads
 
@@ -324,7 +324,7 @@ In the following image, there's a single fact table connected by relationships t
 
 Copilot can summarize your semantic model and provide a high-level overview of the structure and key elements. This summary can help you understand important objects or missing relationships, for example.
 
-![Power BI Copilot Semantic Model](./figures/get_started/06-example-data-model-1-ss.png)
+![Power BI Copilot Semantic Model](/assets/images/get_started/06-example-data-model-1-ss.png)
 
 ### Query with DAX
 
@@ -335,7 +335,7 @@ Consider the following prompt `total sales for all salespeople individually for 
 
 This prompt is intending to calculate each individual salesperson's total sales for the accessories category. At **AdventureWorks**, there are multiple categories with multiple products within. Accessories have low sales, and the business requirement is to understand better who is selling more accessories, in case they can share valuable information.
 
-![Power BI Copilot DAX Query](./figures/get_started/dax-query-output.png)
+![Power BI Copilot DAX Query](/assets/images/get_started/dax-query-output.png)
 
 ```DAX
 
@@ -397,7 +397,7 @@ The following screenshot is the result of three simple steps:
 
 As a developer, you can **Update model** with changes to create the measures best suited to your project.
 
-![Power BI Copilot Suggest Measures](./figures/get_started/dax-query-suggest-measures.png)
+![Power BI Copilot Suggest Measures](/assets/images/get_started/dax-query-suggest-measures.png)
 
 
 ## Create reports with Copilot in Power BI
@@ -406,7 +406,7 @@ As a developer, you can **Update model** with changes to create the measures bes
 
 Copilot in Power BI helps you build interactive reports faster by turning your ideas into report elements with just **a prompt**. You can use **suggested prompts** or enter **your own** to **create new report pages, suggest content, or answer specific data questions** in the **Copilot pane**.
 
-![Power BI Copilot Pane](./figures/get_started/copilot-pane.png)
+![Power BI Copilot Pane](/assets/images/get_started/copilot-pane.png)
 
 The following example was generated by using the **Create a new report page suggested prompt**. Copilot asked for the name and description, and then created the report elements, including:
 
@@ -416,7 +416,7 @@ The following example was generated by using the **Create a new report page sugg
 - Column charts evaluating sales, cost, and profit by product.
 - A Map visual for sales by region.
 
-![Power BI Copilot New Report Page](./figures/get_started/copilot-generated-report.png)
+![Power BI Copilot New Report Page](/assets/images/get_started/copilot-generated-report.png)
 
 ### Create reports in the Power BI service
 
@@ -424,7 +424,7 @@ When you create reports in Power BI Desktop and publish them, both the **semanti
 
 Copilot can also help create reports based on semantic models in the Power BI service. To get started, **select the ellipsis (...)** next to your semantic model and choose **Create report**.
 
-![Power BI Service Create Report](./figures/get_started/create-reports-1.png)
+![Power BI Service Create Report](/assets/images/get_started/create-reports-1.png)
 
 For this example report, we see several different possibilities offered, including:
 
@@ -434,7 +434,7 @@ For this example report, we see several different possibilities offered, includi
 
 In the following screenshot, we selected the **Product Cost** **and** **Profitability** prompt to generate a new report page. This page has a similar layout from the one created with Power BI Desktop. There are **Card visuals**, **Bar and Column charts**, and **Area charts** to help analyze the cost and profitability of different products, including standard cost, profit, and profit margin.
 
-![Power BI Service Copilot Report](./figures/get_started/service-generated-report.png)
+![Power BI Service Copilot Report](/assets/images/get_started/service-generated-report.png)
 
 #### Create pages with custom prompts
 
@@ -452,7 +452,7 @@ Copilot can also help you communicate key findings by **generating narrative sum
     - Answer likely questions from leadership
     - Create a bulleted list of insights
 
-![Power BI Copilot Summarize Report](./figures/get_started/create-reports-6.png)
+![Power BI Copilot Summarize Report](/assets/images/get_started/create-reports-6.png)
 
 In the following screenshot, the Copilot-generated summary, some of the highlighted points are:
 
@@ -460,7 +460,7 @@ In the following screenshot, the Copilot-generated summary, some of the highligh
 - A significant spike in sales.
 - Overall profit and highest profit on a single day.
 
-![Power BI Copilot Report Summary](./figures/get_started/copilot-summary.png)
+![Power BI Copilot Report Summary](/assets/images/get_started/copilot-summary.png)
 
 #### Summarize in the Copilot pane
 
@@ -476,21 +476,21 @@ Once you create your semantic model and report, you can use the **Prep data for 
 
 **Simplify the data schema** by removing unnecessary tables and columns, and using clear, descriptive names. 
 
-![Power BI Prep Data for AI](./figures/get_started/simplify-data-schema.png)
+![Power BI Prep Data for AI](/assets/images/get_started/simplify-data-schema.png)
 
 **Verified answers** associate common business questions with specific visuals. 
 
-![Power BI Verified Answers](./figures/get_started/verified-answers.png)
+![Power BI Verified Answers](/assets/images/get_started/verified-answers.png)
 
 **Provide AI instructions** with key business context and domain-specific logic to Copilot to help tailor responses. AI instructions help clarify business terms, guide analysis approaches, and provide critical data context. Once saved, these instructions are used by Copilot to respond more intelligently to user prompts. 
 
-![Power BI AI Instructions](./figures/get_started/ai-instructions.png)
+![Power BI AI Instructions](/assets/images/get_started/ai-instructions.png)
 
 ### Test and mark the model
 
 It's important to test your model to validate that **you get expected results** before marking the model as reviewed. Once you're confident that your schema is simplified, your verified answers are configured, and your AI instructions are updated, you can mark the semantic model as **Prepped for AI**. You can configure this property for the semantic model in the **Power BI service**.
 
-![Power BI Mark Model Prepped for AI](./figures/get_started/prepped-for-ai.png)
+![Power BI Mark Model Prepped for AI](/assets/images/get_started/prepped-for-ai.png)
 
 ### Integration with Microsoft Fabric
 
@@ -499,13 +499,13 @@ Power BI is part of the Microsoft Fabric analytics platform. Copilot in Power BI
 - **Copilot in Power BI** is preconfigured to assist you with certain tasks, such as data cleaning to increase productivity.
 - **Fabric data agents** can be customized to include specific data and follow instructions for additional context.
 
-![Power BI Fabric Data Agents](./figures/get_started/copilot-fabric-integration.png)
+![Power BI Fabric Data Agents](/assets/images/get_started/copilot-fabric-integration.png)
 
 ### Chat with your data
 
 Now that your data is prepared, business users can use Copilot’s chat feature to explore and understand data.
 
-![Power BI Chat with Your Data](./figures/get_started/immersive-service-chat.png)
+![Power BI Chat with Your Data](/assets/images/get_started/immersive-service-chat.png)
 
 In Power BI service, users simply select Copilot to chat with the data, such as:
 
@@ -513,4 +513,4 @@ In Power BI service, users simply select Copilot to chat with the data, such as:
 - **Interpret answers:** Copilot provides responses with supporting visuals and explanations of how it arrived at the answer.
 - **Summarize findings:** Quickly generate summaries to share insights with others or inform decision-making.
 
-![Power BI Copilot Chat Example](./figures/get_started/chat-verified-answer.png)
+![Power BI Copilot Chat Example](/assets/images/get_started/chat-verified-answer.png)
