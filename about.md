@@ -16,5 +16,5 @@ permalink: /about/
 
 ## 联系方式
 
-- Email: your-email@example.com
+- Email: leijianlong.jalon@gmail.com
 - GitHub: [JianlongLei](https://github.com/JianlongLei)
